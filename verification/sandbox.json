@@ -1,0 +1,28 @@
+{
+  "runtime": "v22.22.1",
+  "deterministic": true,
+  "network": "isolated namespace",
+  "repository": "read-only /bot",
+  "identity": "65534:65534",
+  "cpus": 1,
+  "process_limit": 64,
+  "wall_limit_seconds": 60,
+  "peak_rss_kib": 11348,
+  "runs": [
+    {
+      "run": 1,
+      "exit": 0,
+      "wall_seconds": 0.3399,
+      "bytes": 421548,
+      "sha256": "0c21d83fdb71dc9293346d1cd7894ce01893e7d3d3d28821c0b72c6b62269e60"
+    },
+    {
+      "run": 2,
+      "exit": 0,
+      "wall_seconds": 0.3316,
+      "bytes": 421548,
+      "sha256": "0c21d83fdb71dc9293346d1cd7894ce01893e7d3d3d28821c0b72c6b62269e60"
+    }
+  ],
+  "limitations": "No Docker/pinned image or 512 MiB cgroup; peak RSS checked against 512 MiB."
+}

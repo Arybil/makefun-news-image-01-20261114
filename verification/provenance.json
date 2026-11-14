@@ -1,0 +1,75 @@
+{
+  "kit_files_verified": 11,
+  "kit_integrity": [
+    {
+      "path": "RULES.txt",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "cli/makefun.mjs",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "cli/site.json",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "competition.yaml",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "harness/CODE.sha256",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "harness/SOURCES.sha256",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "harness/harness-src.tar.gz",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "harness/harness-src.tar.gz.sha256",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "starter/LICENSE",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "starter/entry.png",
+      "hash_matches": true,
+      "size_matches": true
+    },
+    {
+      "path": "starter/main.ts",
+      "hash_matches": true,
+      "size_matches": true
+    }
+  ],
+  "news_urls_matched": 9,
+  "urls": [
+    "https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate",
+    "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o",
+    "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo",
+    "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys",
+    "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo",
+    "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain",
+    "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o",
+    "https://www.aljazeera.com/news/2026/11/13/us-reports-record-number-of-deportations-and-arrests-in-2026",
+    "https://www.aljazeera.com/sports/2026/11/13/harry-kane-england-appearance-record-126-croatia-nations-league-quarterfinals"
+  ],
+  "rules_sha256": "222abe22ac93cfa08103a122ce569b359ed611c76343fd9564e786f244852b79",
+  "competition_sha256": "38c98ad85958c9eab0cc95e31dcaa2b661f0e63cffd14359e736b0174f83953b",
+  "article_fetch": "not independently fetched; sealed kit descriptions used"
+}

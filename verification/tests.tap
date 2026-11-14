@@ -1,0 +1,29 @@
+TAP version 13
+# {"deterministic":true,"width":1024,"height":1024,"bytes":421548,"sha256":"0c21d83fdb71dc9293346d1cd7894ce01893e7d3d3d28821c0b72c6b62269e60"}
+# Subtest: entrypoint emits a complete bounded original PNG reproducibly from any cwd
+ok 1 - entrypoint emits a complete bounded original PNG reproducibly from any cwd
+  ---
+  duration_ms: 738.381341
+  type: 'test'
+  ...
+# Subtest: damaged shipped image is rejected before any artifact is written
+ok 2 - damaged shipped image is rejected before any artifact is written
+  ---
+  duration_ms: 353.445948
+  type: 'test'
+  ...
+# Subtest: size and dimension guardrails reject assets beyond the published limits
+ok 3 - size and dimension guardrails reject assets beyond the published limits
+  ---
+  duration_ms: 1296.571942
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2913.419076

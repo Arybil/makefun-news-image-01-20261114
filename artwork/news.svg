@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: MIT | Copyright (c) 2026 Arybil -->
+<!-- Original vector artwork; news provenance is recorded in SOURCES.md. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#344b60"/><stop offset="1" stop-color="#183348"/></linearGradient>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d5e3e1"/><stop offset="1" stop-color="#f5eee0"/></linearGradient>
+  <linearGradient id="sand" x2="0" y2="1"><stop stop-color="#f1dcb8"/><stop offset="1" stop-color="#e7c49c"/></linearGradient>
+  <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#234d56"/><stop offset="1" stop-color="#102e3c"/></linearGradient>
+  <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#152e3b" opacity=".12"/></pattern>
+  <clipPath id="ukraine"><rect x="28" y="159" width="476" height="240" rx="8"/></clipPath>
+  <clipPath id="baltic"><rect x="520" y="159" width="476" height="240" rx="8"/></clipPath>
+  <clipPath id="iran"><rect x="28" y="414" width="476" height="244" rx="8"/></clipPath>
+  <clipPath id="senate"><rect x="520" y="414" width="476" height="244" rx="8"/></clipPath>
+  <clipPath id="hack"><rect x="28" y="673" width="476" height="244" rx="8"/></clipPath>
+  <clipPath id="migration"><rect x="520" y="673" width="476" height="244" rx="8"/></clipPath>
+  <g id="star"><path d="M0 -5 1.5 -1.5 5 -1.5 2 1 3.2 5 0 2.6 -3.2 5 -2 1 -5 -1.5 -1.5 -1.5Z"/></g>
+</defs>
+<rect width="1024" height="1024" fill="#f6f1e6"/>
+<rect width="1024" height="12" fill="#183443"/>
+<g font-family="Liberation Sans, sans-serif" fill="#183443">
+  <text x="28" y="40" font-size="15" font-weight="700" letter-spacing="3">THE WORLD / FRIDAY EDITION</text>
+  <text x="996" y="40" text-anchor="end" font-size="15" font-weight="700" letter-spacing="1">ONE DAY · SEVEN STORIES</text>
+  <text x="24" y="112" font-family="Liberation Serif, serif" font-size="82" font-weight="700" letter-spacing="-3">13 NOVEMBER</text>
+  <rect x="748" y="54" width="248" height="66" rx="3" fill="#183443"/>
+  <text x="872" y="104" text-anchor="middle" font-size="59" font-weight="700" letter-spacing="4" fill="#f6f1e6">2026</text>
+  <path d="M28 136H996" stroke="#183443" stroke-width="3"/>
+
+  <!-- 01: diplomacy, represented by an empty negotiation table. -->
+  <g clip-path="url(#ukraine)">
+    <rect x="28" y="159" width="476" height="240" fill="#dce6df"/>
+    <circle cx="446" cy="309" r="97" fill="#c5d5cb"/>
+    <rect x="28" y="159" width="476" height="240" fill="url(#dots)"/>
+    <path d="M45 374Q259 348 489 376V399H28Z" fill="#b0c3b7"/>
+    <path d="M288 280V351M346 272V347M408 283V352" stroke="#586e6b" stroke-width="3"/>
+    <path d="M289 280H330V297H289Z" fill="#2575a5"/><path d="M289 297H330V314H289Z" fill="#f0c85d"/>
+    <rect x="347" y="272" width="42" height="32" fill="#f8f0df"/>
+    <path d="M347 277H389M347 284H389M347 291H389M347 298H389" stroke="#bd514b" stroke-width="3"/>
+    <rect x="347" y="272" width="18" height="17" fill="#304c6c"/>
+    <rect x="409" y="283" width="40" height="30" fill="#315688"/>
+    <g fill="#f5d46c"><circle cx="429" cy="290" r="1.3"/><circle cx="435" cy="293" r="1.3"/><circle cx="437" cy="299" r="1.3"/><circle cx="433" cy="305" r="1.3"/><circle cx="426" cy="305" r="1.3"/><circle cx="422" cy="299" r="1.3"/><circle cx="423" cy="293" r="1.3"/></g>
+    <path d="M270 340Q280 329 290 340V367H270ZM337 329Q347 318 357 329V356H337ZM410 340Q420 329 430 340V367H410Z" fill="#38575a"/>
+    <ellipse cx="350" cy="364" rx="112" ry="20" fill="#af7c50"/>
+    <path d="M238 364Q350 391 462 364V372Q350 404 238 372Z" fill="#7f573e"/>
+    <path d="M279 379V399M422 379V399" stroke="#6b503c" stroke-width="7"/>
+    <path d="M320 351L346 354 337 361 311 358ZM367 350L390 354 379 360 356 356Z" fill="#fcf7e8"/>
+    <text x="48" y="187" font-size="14" font-weight="700" letter-spacing="2" fill="#41675f">01 / UKRAINE · DIPLOMACY</text>
+    <text x="48" y="229" font-size="38" font-weight="700">Zelensky meets</text>
+    <text x="48" y="272" font-size="38" font-weight="700">US envoys</text>
+    <text x="48" y="300" font-size="19">Europe brought into talks</text>
+  </g>
+
+  <!-- 02: a stylised warship and a drone; no invented casualty figure. -->
+  <g clip-path="url(#baltic)">
+    <rect x="520" y="159" width="476" height="240" fill="url(#sky)"/>
+    <path d="M520 333Q680 322 996 334V399H520Z" fill="url(#sea)"/>
+    <path d="M536 372Q651 357 738 374T980 371M560 390Q725 376 915 390" fill="none" stroke="#7193a1" stroke-width="2"/>
+    <path d="M819 339Q801 319 812 300Q797 290 812 285Q825 287 827 300Q848 290 853 306Q872 320 848 330L849 342Z" fill="#899696" opacity=".8"/>
+    <path d="M778 347H961L943 367H802Z" fill="#8298a3"/>
+    <path d="M817 346V326H869V346M838 325V310H852V325" fill="#a6b7bc"/>
+    <path d="M843 311V284M832 296H857" stroke="#4d6775" stroke-width="3"/>
+    <path d="M891 345V335H922V345M907 334L939 329" stroke="#91a8af" stroke-width="5" fill="none"/>
+    <path d="M816 347L824 329 828 345 837 338 831 352Z" fill="#d76c4f"/>
+    <path d="M931 282L909 278 924 274 927 259 933 274 951 279Z" fill="#405e6d"/>
+    <path d="M924 290L874 318" stroke="#d17a5f" stroke-width="2" stroke-dasharray="4 5"/>
+    <text x="540" y="187" font-size="14" font-weight="700" letter-spacing="2" fill="#466475">02 / GULF OF FINLAND</text>
+    <text x="540" y="229" font-size="38" font-weight="700">Ukraine drone hits</text>
+    <text x="540" y="272" font-size="38" font-weight="700">Russian warship</text>
+  </g>
+
+  <!-- 03: an attributed claim, visually framed as a report. -->
+  <g clip-path="url(#iran)">
+    <rect x="28" y="414" width="476" height="244" fill="url(#sand)"/>
+    <circle cx="440" cy="571" r="84" fill="#f8e9c7"/>
+    <path d="M28 626Q198 606 306 619T504 611V658H28Z" fill="#caa47f"/>
+    <path d="M28 644Q177 622 295 640T504 637V658H28Z" fill="#d9b58f"/>
+    <path d="M358 641V605H448V641Z" fill="#b58b67"/>
+    <path d="M346 608A56 56 0 0 1 458 608Z" fill="#f9f0d7"/>
+    <path d="M346 608A56 56 0 0 1 458 608M373 608Q365 553 402 552Q433 552 430 608M346 608H458" fill="none" stroke="#8c9b91" stroke-width="2"/>
+    <path d="M358 582H446M349 596H454M402 552V608" stroke="#8c9b91" stroke-width="1.5" fill="none"/>
+    <path d="M474 560Q467 533 449 519M487 558Q478 524 456 509" fill="none" stroke="#9b654e" stroke-width="3"/>
+    <path d="M39 636H196" stroke="#ad8464" stroke-width="2"/>
+    <text x="48" y="443" font-size="14" font-weight="700" letter-spacing="2" fill="#754b3d">03 / MIDDLE EAST</text>
+    <text x="48" y="491" font-size="38" font-weight="700">Iran says it struck</text>
+    <text x="48" y="534" font-size="38" font-weight="700">US radar in Bahrain</text>
+    <text x="48" y="564" font-size="18" fill="#754b3d">Claim reported 13 November</text>
+    <rect x="48" y="608" width="140" height="28" rx="3" fill="#9e533f"/>
+    <text x="118" y="628" text-anchor="middle" fill="#fff5e4" font-size="14" font-weight="700" letter-spacing="1">IRAN'S CLAIM</text>
+  </g>
+
+  <!-- 04: hearing furniture rather than an invented portrait. -->
+  <g clip-path="url(#senate)">
+    <rect x="520" y="414" width="476" height="244" fill="#e4e6ea"/>
+    <circle cx="923" cy="570" r="93" fill="#d1d7df"/>
+    <path d="M793 610H984V617H793ZM805 599H972V608H805ZM811 587H966V596H811Z" fill="#a9b8c4"/>
+    <path d="M819 587V566H965V587L891 532Z" fill="#a9b8c4"/>
+    <path d="M835 582V567M858 582V557M883 582V547M907 582V549M932 582V559M954 582V569" stroke="#e4e6ea" stroke-width="6"/>
+    <rect x="833" y="587" width="49" height="40" rx="10" fill="#38505f"/>
+    <rect x="916" y="587" width="49" height="40" rx="10" fill="#38505f"/>
+    <path d="M842 595L847 603 840 626H867L862 603 870 595 860 591H852Z" fill="#192d38"/>
+    <path d="M809 631H990V642H809Z" fill="#947554"/>
+    <path d="M867 631V616L883 608M949 631V616L963 608" stroke="#506574" stroke-width="3" fill="none"/>
+    <circle cx="883" cy="608" r="4" fill="#263f4d"/><circle cx="963" cy="608" r="4" fill="#263f4d"/>
+    <rect x="820" y="644" width="171" height="14" fill="#6f583f"/>
+    <text x="540" y="443" font-size="14" font-weight="700" letter-spacing="2" fill="#4d6278">04 / US · TECHNOLOGY</text>
+    <text x="540" y="491" font-size="38" font-weight="700">Senate summons</text>
+    <text x="540" y="534" font-size="38" font-weight="700">Huang &amp; Lutnick</text>
+    <text x="540" y="564" font-size="18">US Senate Banking Committee</text>
+    <text x="540" y="639" font-size="14" font-weight="700" letter-spacing="2" fill="#4d6278">NVIDIA / WASHINGTON</text>
+  </g>
+
+  <!-- 05: fake video-call UI and the attributed amount. -->
+  <g clip-path="url(#hack)">
+    <rect x="28" y="673" width="476" height="244" fill="#dce8e8"/>
+    <circle cx="423" cy="835" r="98" fill="#c4dcda"/>
+    <rect x="338" y="808" width="143" height="78" rx="7" fill="#1d3d4a"/>
+    <rect x="345" y="815" width="129" height="62" rx="3" fill="url(#screen)"/>
+    <path d="M382 849Q380 815 409 810Q440 816 438 849Z" fill="#759a99"/>
+    <path d="M387 844Q409 851 432 843L429 825Q410 814 389 827Z" fill="#b4cbc5"/>
+    <path d="M394 834H402M415 834H423" stroke="#173b49" stroke-width="3"/>
+    <path d="M379 851Q407 842 442 852L449 867H371Z" fill="#426b71"/>
+    <path d="M328 887H490L480 896H338Z" fill="#647f88"/>
+    <circle cx="408" cy="870" r="5" fill="#c45f54"/>
+    <path d="M349 817H359M349 817V807M469 817H459M469 817V807M349 855H359M349 855V865M469 855H459M469 855V865" stroke="#98b9b4" fill="none" stroke-width="1.5"/>
+    <path d="M347 850L323 867 334 876 309 892" stroke="#c78f36" stroke-width="3" fill="none"/>
+    <circle cx="310" cy="890" r="13" fill="#dba94b"/><circle cx="289" cy="900" r="12" fill="#f1c977"/><circle cx="332" cy="903" r="13" fill="#edc067"/>
+    <path d="M310 883V897M305 886H314M305 893H314M332 896V910M327 899H336M327 906H336" stroke="#8d6c2f" stroke-width="2"/>
+    <text x="48" y="702" font-size="14" font-weight="700" letter-spacing="2" fill="#416c71">05 / FBI · CYBERCRIME</text>
+    <text x="48" y="750" font-size="38" font-weight="700">FBI: N. Korea's</text>
+    <text x="48" y="793" font-size="38" font-weight="700">$400m crypto theft</text>
+    <text x="48" y="824" font-size="19">Through fake video calls</text>
+    <text x="48" y="898" font-size="14" font-weight="700" letter-spacing="2" fill="#416c71">DIGITAL SECURITY</text>
+  </g>
+
+  <!-- 06: a record number, paired with human-scale travel silhouettes. -->
+  <g clip-path="url(#migration)">
+    <rect x="520" y="673" width="476" height="244" fill="#eee2d7"/>
+    <circle cx="930" cy="841" r="90" fill="#ddcdbf"/>
+    <path d="M785 870H996M813 845H996M857 818H996" stroke="#cbb9a6" stroke-width="2"/>
+    <path d="M850 829L963 836 982 828 993 833 979 846 949 850 929 879 913 877 920 849 864 846Z" fill="#748998"/>
+    <path d="M869 839L851 822 842 822 850 841Z" fill="#748998"/>
+    <circle cx="816" cy="858" r="8" fill="#415c66"/>
+    <path d="M808 871Q816 865 824 871L828 888 823 890 821 906H815L813 892 808 905H802L808 884Z" fill="#415c66"/>
+    <rect x="832" y="888" width="14" height="16" rx="2" fill="#b28a65"/>
+    <path d="M836 888V884H842V888M825 880L835 890" stroke="#415c66" stroke-width="2" fill="none"/>
+    <circle cx="873" cy="876" r="6" fill="#415c66"/>
+    <path d="M867 886Q873 881 880 887L884 896 879 898V908H874L871 898 869 908H864Z" fill="#415c66"/>
+    <path d="M880 890L888 885" stroke="#415c66" stroke-width="3"/>
+    <text x="540" y="702" font-size="14" font-weight="700" letter-spacing="2" fill="#80624d">06 / US · MIGRATION</text>
+    <text x="540" y="750" font-size="38" font-weight="700">US deportations</text>
+    <text x="540" y="793" font-size="38" font-weight="700">Record 483,200</text>
+    <text x="540" y="824" font-size="19">Reported total for 2026</text>
+    <text x="540" y="898" font-size="14" font-weight="700" letter-spacing="2" fill="#80624d">PEOPLE &amp; BORDERS</text>
+  </g>
+
+  <!-- 07: sports ticker with an original miniature football pictogram. -->
+  <rect x="28" y="932" width="968" height="64" rx="6" fill="#183443"/>
+  <circle cx="65" cy="964" r="21" fill="#f6f1e6"/>
+  <path d="M65 952L74 959 70 970H59L56 959Z" fill="#183443"/>
+  <path d="M65 943V952M85 959L74 959M77 981L70 970M52 981L59 970M44 959H56" stroke="#183443" stroke-width="2.5"/>
+  <text x="101" y="956" font-size="12" font-weight="700" letter-spacing="2" fill="#a9c7c8">07 / ENGLAND · SPORT</text>
+  <text x="101" y="983" font-size="32" font-weight="700" fill="#f6f1e6">Kane: England appearance record</text>
+  <text x="968" y="972" text-anchor="end" font-size="38" font-weight="700" fill="#e9be65">126</text>
+  <text x="968" y="988" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2" fill="#f6f1e6">CAPS</text>
+  <text x="28" y="1015" font-size="10" letter-spacing="1" fill="#50636a">SOURCE DESK: BBC WORLD + AL JAZEERA · REPORTS OF 13 NOV 2026</text>
+  <text x="996" y="1015" text-anchor="end" font-size="10" letter-spacing="1" fill="#50636a">ORIGINAL EDITORIAL ILLUSTRATION</text>
+</g>
+</svg>
